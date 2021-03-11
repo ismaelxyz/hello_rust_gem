@@ -10,6 +10,8 @@ fn rb_config(key: &str) -> String {
 }
 
 fn main() {
-    println!("cargo:rustc-link-search={}", rb_config("libdir"));
-    println!("cargo:rustc-link-lib={}", rb_config("RUBY_SO_NAME"));
+    if cfg!(not(target_os = "linux")) {
+        println!("cargo:rustc-link-search={}", rb_config("libdir"));
+        println!("cargo:rustc-link-lib={}", rb_config("RUBY_SO_NAME"));
+    }
 }

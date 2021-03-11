@@ -24,3 +24,5 @@ p HelloRust::VERSION
 - [x] Windows 10 (64bit) + RubyInstaller (x86)
 - [x] macOS Catalina + rbenv
 - [x] Amazon linux 2 (x86_64) + rbenv
+- [x] Debian
+- [x] Deepin
