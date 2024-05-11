@@ -17,7 +17,6 @@ require 'hello_rust'
 p HelloRust::VERSION
 ```
 
-
 ## (manual) Confirmed platform
 
 - [x] Windows 10 (64bit) + RubyInstaller (x64)
@@ -26,3 +25,7 @@ p HelloRust::VERSION
 - [x] Amazon linux 2 (x86_64) + rbenv
 - [x] Debian
 - [x] Deepin
+
+## Collaborations
+
+This project is open to any PR, issue or star 🏆, your contribution will keep this project useful for anyone who can use it. 
